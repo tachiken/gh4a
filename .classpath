@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="lib/acra-3.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/github-java-sdk-release-0.1-release.jar"/>
+	<classpathentry kind="lib" path="lib/mygson-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/ocpsoft-pretty-time-1.0.6.jar"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="com_markupartist_android_widget_actionbar_src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
