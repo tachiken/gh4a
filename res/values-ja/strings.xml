@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gh4a</string>
+
+    <!-- Common -->
+    <string name="record_not_found">%1$s が見つかりません</string>
+    <string name="more_data_1">%1$s</string>
+    <string name="more_data">%1$s | %2$s</string>
+    <string name="more_data_3">%1$s | %2$s | %3$s</string>
+    <string name="loading_msg">読み込み中...</string>
+    <string name="search">検索</string>
+    <string name="activity">活動(Activity)</string>
+    <string name="logout">ログアウト</string>
+    <string name="login">ログイン</string>
+    <string name="invalid_login">無効なユーザ名またはパスワード</string>
+    <string name="success_logout">ログアウト成功</string>
+    <string name="sign">&lt;i>Sent via Gh4a App&lt;i></string>
+    <string name="label_it">更新(Update)</string>
+    <string name="cancel">キャンセル</string>
+    <string name="promote">Help Promote Gh4a</string>
+    <string name="promote_desc">(When checked, the signature \'Sent via Gh4a App\' will appear at the bottom of the message)</string>
+    <string name="about">About</string>
+    <string name="my_name">Azwan Adli</string>
+    <string name="my_email">slapperwan@gmail.com</string>
+    <string name="my_web">http://slapperwan.github.com/gh4a</string>
+    <string name="my_username">slapperwan</string>
+    <string name="my_repo">gh4a</string>
+    <string name="feedback">フィードバック</string>
+    <string name="feedback_text">もし何か問題や提案がありましたら、私(訳注：原作者)に連絡を下さい。どんな種類のフィードバックでも歓迎します。</string>
+    <string name="feedback_by_email">Ｅメールで</string>
+    <string name="feedback_by_gh4a">Gh4aで</string>
+    <string name="settings">設定</string>
+
+    <!-- Activity event -->
+    <string name="event_push_title">%1$s が %3$s の %2$s ブランチにプッシュしました</string>
+    <string name="event_watch_title">%1$s が %3$s の観察を %2$s しました</string>
+    <string name="event_gist_title">%1$s %2$s %3$s</string>
+    <string name="event_fork_title">%1$s がリポジトリ %2$s をフォークしました</string>
+    <string name="event_commit_comment_title">%1$s が %2$s にコメントしました</string>
+    <string name="event_fork_apply_title">%1$s applied fork commits to %2$s</string>
+    <string name="event_follow_title">%1$s が %2$s のフォローを開始しました</string>
+    <string name="event_create_repo_title">%1$s がリポジトリ %2$s を作成しました</string>
+    <string name="event_create_branch_title">%1$s がリポジトリ %4$s に、ブランチ %3$s を %2$s しました</string>
+    <string name="event_issues_title">%1$s が %4$s における %3$s 番の問題を %2$s しました</string>
+    <string name="event_delete_repo_title">%1$s がリポジトリ %2$s を削除しました</string>
+    <string name="event_delete_branch_title">%1$s がリポジトリ%4$s 内のブランチ %3$s を %2$s しました</string>
+    <string name="event_wiki_title">%1$s %2$s a page in the %3$s wiki</string>
+    <string name="event_pull_request_title">%1$s は %4$s における %3$s 番のPullリクエストを %2$s しました</string>
+    <string name="event_member_title">%1$s が %2$s を %3$s に追加しました</string>
+    <string name="event_download_title">%1$s が %2$s にアップロードしました</string>
+    <string name="event_gollum_title">%1$s %2$s %3$s in the %4$s wiki</string>
+    <string name="event_public_title">%1$s open sourced %2$s</string>
+    <string name="event_issue_comment">%1$s が %2$s の Pullリクエスト/問題にコメントしました</string>
+
+    <string name="event_pull_request_desc">%1$s\n合計 %3$d 個の追加と %4$d 個の削除からなる %2$d 個のコミット</string>
+    <string name="event_follow_desc">%1$s には %2$d 個のリポジトリがあり %3$d 人のフォロワーがいます</string>
+    <string name="event_fork_desc">フォークしたリポジトリは %1$s です</string>
+    <string name="event_create_repo_desc">新しいブランチ/リポジトリは %1$s/%2$s です</string>
+    <string name="event_create_branch_desc">新しいブランチ %1$s は %2$s/%3$s/tree/%4$s にあります</string>
+    <string name="event_gollum_desc">View %1$s</string>
+    <string name="event_commit_comment_desc">Comment in </string>
+    <string name="event_push_desc">あと %1$d 個のコミット...</string>
+
+    <!-- User -->
+    <plurals name="user">
+        <item quantity="one">ユーザ</item>
+        <item quantity="other">ユーザ</item>
+    </plurals>
+    <string name="user">ユーザ</string>
+    <string name="user_login">ログイン</string>
+    <string name="user_name">名前</string>
+    <string name="user_username">ユーザ名</string>
+    <string name="user_password">パスワード</string>
+    <string name="user_email">Email</string>
+    <string name="user_location">場所</string>
+    <string name="user_website">Webサイト</string>
+    <string name="user_company">会社</string>
+    <string name="user_following">フォローしている</string>
+    <string name="user_followers">フォローされている</string><!-- For type organization -->
+    <string name="user_members">メンバ</string><!-- For type organization -->
+    <string name="user_location">場所</string>
+    <string name="user_created_at">%1$s からのメンバ</string>
+    <string name="user_pub_repos">リポジトリ</string>
+    <string name="user_watched_repos">チェックしているリポジトリ</string>
+    <string name="user_pushable_repos">プッシュ可能リポジトリ</string>
+    <string name="user_extra_data">%1$d 人のフォロワー | %2$d つのリポジトリ</string>
+    <string name="user_news_feed">ニュースフィード</string>
+    <string name="user_your_actions">あなたのアクション</string>
+    <string name="user_public_activity">公的活動</string>
+    <string name="user_private_activity">私的活動</string>
+    <string name="user_organizations">組織</string>
+    <string name="user_follow_action">フォローする</string>
+    <string name="user_unfollow_action">フォローをやめる</string>
+    <string name="user_success_follow">%1$s のフォローに成功しました</string>
+    <string name="user_success_unfollow">%1$s のフォローをやめました</string>
+    <string name="user_error_follow">%1$s をフォローする際にエラーが発生しました</string>
+    <string name="user_error_unfollow">%1$s のフォローをやめる際にエラーが発生しました</string>
+
+    <!-- Repository -->
+    <plurals name="リポジトリ">
+        <item quantity="one">リポジトリ</item>
+        <item quantity="other">リポジトリ</item>
+    </plurals>
+    <string name="repo_owner">所有者</string>
+    <string name="repo_name">リポジトリ名</string>
+    <string name="repo_description">説明</string>
+    <string name="repo_url">URL</string>
+    <string name="repo_open_issues">既知の問題</string>
+    <string name="repo_homepage">ホームページ</string>
+    <string name="repo_forks">フォーク</string>
+    <string name="repo_size">容量</string>
+    <string name="repo_language">言語</string>
+    <string name="repo_followers">フォロワー</string>
+    <string name="repo_created_at">Created at</string>
+    <string name="repo_pushed_at">Pushed at</string>
+    <string name="repo_source">ソース</string>
+    <string name="repo_parent">親</string>
+    <string name="repo_organization">組織</string>
+    <string name="repo_watchers">観察者(watcher)</string>
+    <string name="repo_network">ネットワーク</string>
+    <string name="repo_watch_action">観察する</string>
+    <string name="repo_fork_action">フォーク</string>
+    <string name="repo_branches">ブランチ</string>
+    <string name="repo_tags">タグ</string>
+    <string name="repo_branch">ブランチ</string>
+    <string name="repo_tag">タグ</string>
+    <string name="repo_watch_action">観察する</string>
+    <string name="repo_unwatch_action">観察をやめる</string>
+    <string name="repo_fork_action">フォークする</string>
+    <string name="repo_success_watch">%1$s の観察を開始しました</string>
+    <string name="repo_success_unwatch">%1$s の観察を終了しました</string>
+    <string name="repo_error_watch">%1$s の観察を開始しようとした際にエラーが発生しました</string>
+    <string name="repo_error_unwatch">%1$s の観察を終了しようとした際にエラーが発生しました</string>
+    <string name="repo_success_fork">%1$s のフォークに成功しました</string>
+    <string name="repo_error_fork">%1$s のフォークに失敗しました</string>
+    <string name="repo_branch">ブランチ</string>
+    <string name="repo_contributors">貢献者(contributor)</string>
+    <string name="repo_collaborators">協力者(collaborator)</string>
+
+    <!-- Commit -->
+    <plurals name="commit">
+        <item quantity="one">コミット</item>
+        <item quantity="other">コミット</item>
+    </plurals>
+    <string name="commit_message">メッセージ</string>
+    <string name="commit_date">日時</string>
+    <string name="commit_author">著者</string>
+    <string name="commit_committer">コミッタ</string>
+    <string name="commit_committed_date">コミット日時</string>
+    <string name="commit_authored_date">著作日時</string>
+    <string name="commits">コミット</string>
+    <string name="commit_changed">変更されたファイル</string>
+    <string name="commit_added">追加されたファイル</string>
+    <string name="commit_deleted">削除されたファイル</string>
+    <string name="commit_summary">%1$d の変更 | %2$d の追加 | %3$d の削除</string>
+    <string name="commit_no_files">なし</string>
+    <string name="commit_sha">コミット - %1$s</string>
+    <string name="commit_comment">%1$s 上のコメント</string>
+
+    <!-- Issue -->
+    <plurals name="issue">
+        <item quantity="one">問題</item>
+        <item quantity="other">問題</item>
+    </plurals>
+    <string name="issues">問題</string>
+    <string name="Issue">問題</string>
+    <string name="issue_user">ユーザ</string>
+    <string name="issue_updated_at">Updated at</string>
+    <string name="issue_user">ユーザ</string>
+    <string name="issue_number">番号</string>
+    <string name="issue_votes">投票</string>
+    <string name="issue_comments">コメント</string>
+    <string name="issue_title">タイトル</string>
+    <string name="issue_body">本体</string>
+    <string name="issue_state">状態</string>
+    <string name="issue_created_at">Created at</string>
+    <string name="issue_closed_at">Closed at</string>
+    <string name="issue_view_open_issues">View Open</string>
+    <string name="issue_view_closed_issues">View Closed</string>
+    <string name="issue_create">Create Issue</string>
+    <string name="issue_error_title">タイトルを入力して下さい</string>
+    <string name="issue_success_create">問題の登録に成功しました</string>
+    <string name="issue_edit">問題を編集</string>
+    <string name="issue_success_edit">問題の編集に成功しました</string>
+    <string name="issue_error_edit">問題の編集ができません</string>
+    <string name="issue_reopen">問題を再開する</string>
+    <string name="issue_close">問題を解決済みにする</string>
+    <string name="issue_success_close">問題を解決済みにしました</string>
+    <string name="issue_error_close">問題を解決済みにできません</string>
+    <string name="issue_success_reopen">問題を再開することに成功しました</string>
+    <string name="issue_error_reopen">問題を再開できません</string>
+    <string name="issue_view_labels">ラベルを観る</string>
+    <string name="issue_success_comment">コメントの作成に成功しました</string>
+    <string name="issue_error_comment">コメントを作成できません</string>
+    <string name="issue_create_label">新しいラベル</string>
+    <string name="issue_label_create">作成</string>
+    <string name="issue_error_create_label">ラベルを作成できません</string>
+    <string name="issue_error_delete_label">ラベルを削除できません</string>
+    <string name="issue_error_label">ラベルを入力してください</string>
+    <string name="issue_label_add_delete">ラベルの追加/削除</string>
+    <string name="issue_error_label_add_delete">ラベルの追加/削除ができません</string>
+    <string name="issue_labels">ラベル</string>
+
+    <!-- Issue comment -->
+    <plurals name="issue_comment">
+        <item quantity="one">コメント</item>
+        <item quantity="other">コメント</item>
+    </plurals>
+    <string name="issue_comment_title">コメント</string>
+    <string name="issue_comment_created_at">Created at</string>
+    <string name="issue_comment_body">Body</string>
+    <string name="issue_comment_updated_at">Updated at</string>
+    <string name="issue_comment_user">ユーザ</string>
+
+    <!-- Pull Request -->
+    <string name="pull_request_title">Pull リクエスト</string>
+    <string name="pull_request_comments">ディスカッション</string>
+
+    <!-- Object -->
+    <string name="object_tree">ツリー</string>
+    <string name="object_view_file_at">ファイル閲覧 @ %1$s</string>
+    <string name="object_view_history">履歴</string>
+
+    <!-- Gist -->
+    <string name="gist">Gist</string>
+    <string name="gist_public">公開 Gist</string>
+    <string name="gist_filename">Gist - %1$s</string>
+
+    <!-- Explore -->
+    <string name="explore">エクスプローラ</string>
+
+    <!-- Trending repos -->
+    <string name="trend">流行りのリポジトリ</string>
+    <string name="trend_today">今日</string>
+    <string name="trend_week">今週</string>
+    <string name="trend_month">今月</string>
+    <string name="trend_forever">全体</string>
+
+    <!-- GitHub Blog -->
+    <string name="blog">GitHub Blog</string>
+
+    <!-- Recent Wiki Updates -->
+    <string name="recent_wiki">最近更新されたWiki</string>
+
+    <!-- GitHub Jobs -->
+    <string name="jobs">GitHub Jobs</string>
+</resources>
